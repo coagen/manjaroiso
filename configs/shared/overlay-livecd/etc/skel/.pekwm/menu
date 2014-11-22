@@ -19,7 +19,7 @@
 # Variables
     INCLUDE = "vars"
 
-RootMenu = "ManjaroPek" {
+RootMenu = "Pek" {
                Entry = "Setup" { Actions = "Exec sakura -e 'sudo /usr/bin/setup'" }
 
  	  Separator {}

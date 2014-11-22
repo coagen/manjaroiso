@@ -19,7 +19,7 @@
 # Variables
     INCLUDE = "vars"
 
-RootMenu = "ManjaroPek" {
+RootMenu = "Pek" {
                Entry = "Run" { Actions = "ShowCmdDialog" }
 
  	  Separator {}
