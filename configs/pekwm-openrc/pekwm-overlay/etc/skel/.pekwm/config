@@ -20,7 +20,7 @@ Files {
     Menu = "~/.pekwm/menu"
     Start = "~/.pekwm/start"
     AutoProps = "~/.pekwm/autoproperties"
-    Theme = "/usr/share/pekwm/themes/dust"
+    Theme = "/usr/share/pekwm/themes/manjaro-greenbars-light"
     Icons = "~/.pekwm/icons/"
 }
 

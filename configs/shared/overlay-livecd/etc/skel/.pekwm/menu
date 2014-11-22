@@ -20,7 +20,7 @@
     INCLUDE = "vars"
 
 RootMenu = "ManjaroPek" {
-               Entry = "Run" { Actions = "ShowCmdDialog" }
+               Entry = "Setup" { Actions = "Exec sakura -e 'sudo /usr/bin/setup'" }
 
  	  Separator {}
 
