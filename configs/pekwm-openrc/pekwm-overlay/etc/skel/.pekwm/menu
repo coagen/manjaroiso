@@ -178,11 +178,11 @@ Submenu = "Go to" {
            Separator {}
 
        Submenu = "Session" {
-              Entry = "Suspend" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Suspend'" }
-              Entry = "Hibernate" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Hibernate'" } 
+              Entry = "Suspend" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.UPower' /org/freedesktop/UPower org.freedesktop.UPower.Suspend" }
+              Entry = "Hibernate" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.UPower' /org/freedesktop/UPower org.freedesktop.UPower.Hibernate" } 
               Entry = "Logout" { Actions = "Exec pekwm --replace" }
-              Entry = "Restart" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart'" }   
-              Entry = "Shutdown" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Stop'" }            
+              Entry = "Restart" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.ConsoleKit' /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart" }   
+              Entry = "Shutdown" { Actions = "Exec dbus-send --system --print-reply --dest='org.freedesktop.ConsoleKit' /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Stop" }            
               }
 
 WindowMenu = "Window Menu" {
