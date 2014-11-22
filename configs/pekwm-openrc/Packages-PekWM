@@ -152,6 +152,8 @@ libreoffice-installer
 lxrandr
 sakura
 mlocate
+libopenraw
+libgsf
 
 ## Fonts
 ttf-ubuntu-font-family
